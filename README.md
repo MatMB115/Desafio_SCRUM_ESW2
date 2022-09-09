@@ -1,5 +1,6 @@
 # Desafio_SCRUM_ESW2
-Os integrantes do grupo deverão estudar previamente o framework SCRUM, método para o desenvolvimento ágil de produtos de software.
+O grupo deverá executar, em sala de aula, o método SCRUM para uma aplicação de software, seguindo o cronograma fornecido.
+
 O grupo deverá selecionar entre seus integrantes pessoas para os seguintes perfis:
 - PO - Product Owner (1 pessoa)
 - SM - Scrum Master (1 pessoa)
