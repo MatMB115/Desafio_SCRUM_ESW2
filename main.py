@@ -55,7 +55,6 @@ def menu(dataset):
 
 def main ():
     dataset = pd.read_csv("alunos.csv", header=None, names=["Nome", "Matricula", "Grupo", "Nota"])
-    add_grupo_to_aluno(dataset, 2, 1)
     while True:
         menu(dataset)
 
