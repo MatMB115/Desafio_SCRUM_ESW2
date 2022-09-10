@@ -28,10 +28,8 @@ def menu(dataset):
     x = int(input("Digite a opção desejada: "))
 
     if (x == 1):
-        matricula = input("Digite a matricula do aluno: ")
-        grupo = input("Digite o grupo do aluno: ")
-        nota = input("Digite a nota do grupo: ")
-        add_grupo_to_aluno(dataset, grupo, matricula)
+        grupo = int(input("Digite o grupo do aluno: "))
+        nota = int(input("Digite a nota do grupo: "))
         update_nota_by_grupo(dataset, grupo, nota)
     
     if (x == 2):
@@ -51,7 +49,7 @@ def menu(dataset):
         add_grupo_to_aluno(dataset, grupo, matricula)
 
     if (x == 0):
-        exit()
+        quit()
 
 def main ():
     dataset = pd.read_csv("alunos.csv", header=None, names=["Nome", "Matricula", "Grupo", "Nota"])
